@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "F:\\dev\\lang\\python\\Anaconda3\\python.exe",
+    "python.pythonPath": "D:\\dev\\lang\\python\\Anaconda3\\python.exe",
     "python.testing.unittestArgs": [
         "-v",
         "-s",
@@ -12,5 +12,11 @@
     "python.testing.unittestEnabled": false,
     "python.testing.pytestArgs": [
         "."
-    ]
+    ],
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    }
 }

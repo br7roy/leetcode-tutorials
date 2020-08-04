@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - reverseToCount",
+            "request": "launch",
+            "mainClass": "reverseToCount",
+            "projectName": "leetcode-tutorials_7731cd58"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Attach)",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": "<debug port of the debuggee>"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Solution",
             "request": "launch",
             "mainClass": "Solution"
